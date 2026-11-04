@@ -1,4 +1,4 @@
-package Models;
+package Ejercicio1.Models;
 
 public class EstadisticasDirectorio {
     private int totalFicheros;

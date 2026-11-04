@@ -1,8 +1,9 @@
-package Controller;
+package Ejercicio1.Controller;
 
-import Exceptions.RutaNoValidaException;
-import Models.EstadisticasDirectorio;
-import Repository.DirectorioRepository;
+import Ejercicio1.Exceptions.RutaNoValidaException;
+
+import Ejercicio1.Models.EstadisticasDirectorio;
+import Ejercicio1.Repository.DirectorioRepository;
 
 import java.io.File;
 import java.util.Scanner;

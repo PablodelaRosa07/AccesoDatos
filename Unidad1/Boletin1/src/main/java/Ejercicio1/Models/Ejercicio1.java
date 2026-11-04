@@ -1,6 +1,7 @@
-package Models;
+package Ejercicio1.Models;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
@@ -19,8 +20,8 @@ public class Ejercicio1 {
         String directorio = sc.next();
         
         try {
-            boolean buscado = directorio.contains();
-            if (creado) {
+            boolean buscado = directorio.contains(directorio);
+            if (buscado) {
                 logger.info("Fichero creado con éxito.");
             } else {
                 logger.info("El fichero ya existía.");

@@ -15,15 +15,17 @@ import EjercicioPruebaJson.Models.Empleado;
 
 public class Main {
 	public static void main(String[] args) throws JsonSyntaxException, JsonIOException, FileNotFoundException {
+		Main m = new Main();
+		
 		Gson gson = new Gson();
 		String rutaFichero = args[0];
-		Empleado empleado = new Empleado("empleado2", "Elena de la Rosa", 3, "Empresa2");
+		Empleado empleado = new Empleado("empleado2", "Pablo de la Rosa", 3, "Empresa2");
 
-		leeEmpleados(rutaFichero);
-		escribeEmpleado(empleado, rutaFichero);
+		m.leeEmpleados(rutaFichero);
+		m.escribeEmpleado(empleado, rutaFichero);
 	}
 	
-	public static void leeEmpleados(String rutaFichero) { 
+	public void leeEmpleados(String rutaFichero) { 
 	    try { 
 	        Gson gson = new Gson(); 
 	        FileReader fichero = new FileReader(rutaFichero); 
@@ -36,7 +38,7 @@ public class Main {
 	    } 
 	}
 	
-	public static void escribeEmpleado(Empleado empleado, String rutaFichero) {
+	public void escribeEmpleado(Empleado empleado, String rutaFichero) {
 		 Gson gson = new Gson();
 		 String json = gson.toJson(empleado);
 		 FileWriter fichero = null;

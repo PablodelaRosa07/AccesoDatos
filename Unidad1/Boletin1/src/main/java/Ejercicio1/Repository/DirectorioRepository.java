@@ -1,9 +1,10 @@
-package Repository;
+package Ejercicio1.Repository;
 
 import java.io.File;
 
-import Exceptions.RutaNoValidaException;
-import Models.EstadisticasDirectorio;
+
+import Ejercicio1.Exceptions.RutaNoValidaException;
+import Ejercicio1.Models.EstadisticasDirectorio;
 
 public class DirectorioRepository {
 
