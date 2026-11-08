@@ -16,7 +16,7 @@ public class Pais {
 		this.nombre = nombre;
 		this.continente = continente;
 		this.poblacion = poblacion;
-		idiomas = new ArrayList<String>();
+		this.idiomas = idiomas;
 		this.moneda = moneda;
 	}
 

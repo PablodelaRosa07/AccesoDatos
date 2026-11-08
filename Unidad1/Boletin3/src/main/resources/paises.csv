@@ -1,13 +1,15 @@
 Nombre,Continente,Población,Idioma,Moneda
-Argentina,América,46000000,Español,Peso argentino
-Brasil,América,214000000,Portugués,Real brasileño
-Canadá,América,38000000,"Inglés, Francés",Dólar canadiense
-China,Asia,1412000000,Chino mandarín,Yuan
-Francia,Europa,67000000,Francés,Euro
-India,Asia,1393000000,"Hindi, Inglés",Rupia india
-Japón,Asia,125800000,Japonés,Yen
-México,América,126000000,Español,Peso mexicano
-Nigeria,África,206000000,Inglés,Naira
-Sudáfrica,África,60000000,"Inglés, Afrikáans, Zulú",Rand sudafricano
-Alemania,Europa,83000000,Alemán,Euro
-Australia,Oceanía,26000000,Inglés,Dólar australiano
+Brasil,América,2.14E8,Portugués,Real brasileño
+Canadá,América,3.8E7,Inglés Francés,Dólar canadiense
+China,Asia,1.412E9,Chino,Yuan
+Francia,Europa,6.7E7,Francés,Euro
+India,Asia,1.393E9,Hindi Inglés,Rupia india
+Japón,Asia,1.258E8,Japonés,Yen
+México,América,1.26E8,Español,Peso mexicano
+Nigeria,África,2.06E8,Inglés,Naira
+Sudáfrica,África,6.0E7,Inglés Afrikáans Zulú,Rand sudafricano
+Alemania,Europa,8.3E7,Alemán,Euro
+Australia,Oceanía,2.6E7,Inglés,Dólar australiano
+Peru,America,5500000.0,Español Peruano Peruano Peruano,Caca
+Peru,America,500000.0,Español Peruano Peruano,Caca
+Peru,America,500000.0,Español Peruano,Caca

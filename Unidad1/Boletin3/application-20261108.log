@@ -1,0 +1,123 @@
+2026-11-08 17:27:34.731 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El nombre del viento' (ISBN: 9788497593793)
+2026-11-08 17:27:34.741 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'El camino de los reyes' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:27:34.741 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El imperio final' (ISBN: 9788445002070)
+2026-11-08 17:27:34.742 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Ready Player One' (ISBN: 9788498890541)
+2026-11-08 17:27:34.742 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Neuromante' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:27:34.742 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Dune' (ISBN: 9788445003152)
+2026-11-08 17:27:34.742 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Guía del autoestopista galáctico' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:27:34.743 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Juego de tronos' (ISBN: 9788445001233)
+2026-11-08 17:27:34.743 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'La historia interminable' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:27:34.743 [main] INFO  Ejercicio2.Service.LibroService - Nuevo libro añadido manualmente con éxito: 'Libro de Prueba Sin Autor'
+2026-11-08 17:27:34.744 [main] ERROR Ejercicio2.Service.LibroService - Error al generar el fichero CSV para el país 'Estados Unidos': main\resources\libros_eeuu.csv (El sistema no puede encontrar la ruta especificada)
+2026-11-08 17:30:07.207 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El nombre del viento' (ISBN: 9788497593793)
+2026-11-08 17:30:07.212 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'El camino de los reyes' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:30:07.213 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El imperio final' (ISBN: 9788445002070)
+2026-11-08 17:30:07.213 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Ready Player One' (ISBN: 9788498890541)
+2026-11-08 17:30:07.213 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Neuromante' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:30:07.213 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Dune' (ISBN: 9788445003152)
+2026-11-08 17:30:07.213 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Guía del autoestopista galáctico' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:30:07.213 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Juego de tronos' (ISBN: 9788445001233)
+2026-11-08 17:30:07.213 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'La historia interminable' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:30:07.213 [main] INFO  Ejercicio2.Service.LibroService - Nuevo libro añadido manualmente con éxito: 'Libro de Prueba Sin Autor'
+2026-11-08 17:30:07.215 [main] INFO  Ejercicio2.Service.LibroService - Exportación completada exitosamente. Se han guardado 0 libros del país 'Estados Unidos' en 'libros_eeuu.csv'.
+2026-11-08 17:32:01.637 [main] INFO  Ejercicio2.Controller.LibroController - Iniciando carga y validación de libros
+2026-11-08 17:32:01.696 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El nombre del viento' (ISBN: 9788497593793)
+2026-11-08 17:32:01.697 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'El camino de los reyes' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:32:01.697 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El imperio final' (ISBN: 9788445002070)
+2026-11-08 17:32:01.697 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Ready Player One' (ISBN: 9788498890541)
+2026-11-08 17:32:01.697 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Neuromante' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:32:01.697 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Dune' (ISBN: 9788445003152)
+2026-11-08 17:32:01.697 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Guía del autoestopista galáctico' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:32:01.697 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Juego de tronos' (ISBN: 9788445001233)
+2026-11-08 17:32:01.697 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'La historia interminable' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:32:01.698 [main] INFO  Ejercicio2.Controller.LibroController - Intentando añadir un nuevo libro sin autor
+2026-11-08 17:32:01.698 [main] INFO  Ejercicio2.Service.LibroService - Nuevo libro añadido manualmente con éxito: 'Libro de Prueba Sin Autor'
+2026-11-08 17:32:01.698 [main] INFO  Ejercicio2.Controller.LibroController - El libro se añadió correctamente a pesar de no tener autor.
+2026-11-08 17:32:01.698 [main] INFO  Ejercicio2.Controller.LibroController - Exportando libros del país 'Estados Unidos' a CSV
+2026-11-08 17:32:01.699 [main] INFO  Ejercicio2.Service.LibroService - Exportación completada exitosamente. Se han guardado 0 libros del país 'Estados Unidos' en 'libros_eeuu.csv'.
+2026-11-08 17:32:01.700 [main] INFO  Ejercicio2.Controller.LibroController - Fichero CSV generado correctamente en: libros_eeuu.csv
+2026-11-08 17:32:01.700 [main] INFO  Ejercicio2.Controller.LibroController - El nombre del viento | Editorial: Plaza & Janés | Autor: Sin autor asignado
+2026-11-08 17:32:01.701 [main] INFO  Ejercicio2.Controller.LibroController - El imperio final | Editorial: Nova | Autor: Sin autor asignado
+2026-11-08 17:32:01.701 [main] INFO  Ejercicio2.Controller.LibroController - Ready Player One | Editorial: Ediciones B | Autor: Sin autor asignado
+2026-11-08 17:32:01.701 [main] INFO  Ejercicio2.Controller.LibroController - Dune | Editorial: Minotauro | Autor: Sin autor asignado
+2026-11-08 17:32:01.701 [main] INFO  Ejercicio2.Controller.LibroController - Juego de tronos | Editorial: Gigamesh | Autor: Sin autor asignado
+2026-11-08 17:32:01.701 [main] INFO  Ejercicio2.Controller.LibroController - Libro de Prueba Sin Autor | Editorial: Editorial Pruebas | Autor: Sin autor asignado
+2026-11-08 17:37:35.473 [main] INFO  Ejercicio2.Controller.LibroController - Iniciando carga y validación de libros
+2026-11-08 17:37:35.552 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El nombre del viento' (ISBN: 9788497593793)
+2026-11-08 17:37:35.552 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'El camino de los reyes' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:37:35.552 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El imperio final' (ISBN: 9788445002070)
+2026-11-08 17:37:35.552 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Ready Player One' (ISBN: 9788498890541)
+2026-11-08 17:37:35.552 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Neuromante' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:37:35.553 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Dune' (ISBN: 9788445003152)
+2026-11-08 17:37:35.553 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Guía del autoestopista galáctico' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:37:35.553 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Juego de tronos' (ISBN: 9788445001233)
+2026-11-08 17:37:35.553 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'La historia interminable' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:37:35.553 [main] INFO  Ejercicio2.Controller.LibroController - Intentando añadir un nuevo libro sin autor
+2026-11-08 17:37:35.554 [main] INFO  Ejercicio2.Service.LibroService - Nuevo libro añadido manualmente con éxito: 'Libro de Prueba Sin Autor'
+2026-11-08 17:37:35.554 [main] INFO  Ejercicio2.Controller.LibroController - El libro se añadió correctamente a pesar de no tener autor.
+2026-11-08 17:37:35.554 [main] INFO  Ejercicio2.Controller.LibroController - Exportando libros del país 'Estados Unidos' a CSV
+2026-11-08 17:37:35.556 [main] INFO  Ejercicio2.Service.LibroService - Exportación completada exitosamente. Se han guardado 0 libros del país 'Estados Unidos' en 'libros_eeuu.csv'.
+2026-11-08 17:37:35.557 [main] INFO  Ejercicio2.Controller.LibroController - Fichero CSV generado correctamente en: libros_eeuu.csv
+2026-11-08 17:37:35.558 [main] INFO  Ejercicio2.Controller.LibroController - El nombre del viento | Editorial: Plaza & Janés | Autor: Sin autor asignado
+2026-11-08 17:37:35.558 [main] INFO  Ejercicio2.Controller.LibroController - El imperio final | Editorial: Nova | Autor: Sin autor asignado
+2026-11-08 17:37:35.558 [main] INFO  Ejercicio2.Controller.LibroController - Ready Player One | Editorial: Ediciones B | Autor: Sin autor asignado
+2026-11-08 17:37:35.558 [main] INFO  Ejercicio2.Controller.LibroController - Dune | Editorial: Minotauro | Autor: Sin autor asignado
+2026-11-08 17:37:35.559 [main] INFO  Ejercicio2.Controller.LibroController - Juego de tronos | Editorial: Gigamesh | Autor: Sin autor asignado
+2026-11-08 17:37:35.559 [main] INFO  Ejercicio2.Controller.LibroController - Libro de Prueba Sin Autor | Editorial: Editorial Pruebas | Autor: Sin autor asignado
+2026-11-08 17:43:58.471 [main] INFO  Ejercicio2.Controller.LibroController - Iniciando carga y validación de libros desde ambos ficheros JSON
+2026-11-08 17:44:50.789 [main] INFO  Ejercicio2.Controller.LibroController - Iniciando carga y validación de libros desde ambos ficheros JSON
+2026-11-08 17:44:50.869 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El nombre del viento' (ISBN: 9788497593793)
+2026-11-08 17:45:32.857 [main] INFO  Ejercicio2.Controller.LibroController - Iniciando carga y validación de libros desde ambos ficheros JSON
+2026-11-08 17:45:32.936 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El nombre del viento' (ISBN: 9788497593793)
+2026-11-08 17:45:32.936 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'El camino de los reyes' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:45:32.936 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El imperio final' (ISBN: 9788445002070)
+2026-11-08 17:45:32.936 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Ready Player One' (ISBN: 9788498890541)
+2026-11-08 17:45:32.936 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Neuromante' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:45:32.937 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Dune' (ISBN: 9788445003152)
+2026-11-08 17:45:32.937 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Guía del autoestopista galáctico' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:45:32.937 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Juego de tronos' (ISBN: 9788445001233)
+2026-11-08 17:45:32.937 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'La historia interminable' por no tener información de la editorial o datos obligatorios.
+2026-11-08 17:45:32.937 [main] INFO  Ejercicio2.Controller.LibroController - Exportando libros del país 'Alemania' a CSV
+2026-11-08 17:45:32.939 [main] INFO  Ejercicio2.Service.LibroService - Exportación completada exitosamente. Se han guardado 0 libros del país 'Alemania' en 'libros_alemania.csv'.
+2026-11-08 17:45:32.940 [main] INFO  Ejercicio2.Controller.LibroController - Fichero CSV generado correctamente en: libros_alemania.csv
+2026-11-08 17:45:32.941 [main] INFO  Ejercicio2.Controller.LibroController - El nombre del viento | Editorial: Plaza & Janés | Autor: Patrick
+2026-11-08 17:45:32.941 [main] INFO  Ejercicio2.Controller.LibroController - El imperio final | Editorial: Nova | Autor: Brandon
+2026-11-08 17:45:32.942 [main] INFO  Ejercicio2.Controller.LibroController - Ready Player One | Editorial: Ediciones B | Autor: Ernest
+2026-11-08 17:45:32.942 [main] INFO  Ejercicio2.Controller.LibroController - Dune | Editorial: Minotauro | Autor: Frank
+2026-11-08 17:45:32.942 [main] INFO  Ejercicio2.Controller.LibroController - Juego de tronos | Editorial: Gigamesh | Autor: George Raymond Richard
+2026-11-08 18:09:24.681 [main] INFO  Ejercicio2.Controller.LibroController - Iniciando carga y validación de libros desde ambos ficheros JSON
+2026-11-08 18:09:24.758 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El nombre del viento' (ISBN: 9788497593793)
+2026-11-08 18:09:24.758 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'El camino de los reyes' por no tener información de la editorial o datos obligatorios.
+2026-11-08 18:09:24.758 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El imperio final' (ISBN: 9788445002070)
+2026-11-08 18:09:24.759 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Ready Player One' (ISBN: 9788498890541)
+2026-11-08 18:09:24.759 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Neuromante' por no tener información de la editorial o datos obligatorios.
+2026-11-08 18:09:24.759 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Dune' (ISBN: 9788445003152)
+2026-11-08 18:09:24.760 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Guía del autoestopista galáctico' por no tener información de la editorial o datos obligatorios.
+2026-11-08 18:09:24.760 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Juego de tronos' (ISBN: 9788445001233)
+2026-11-08 18:09:24.760 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'La historia interminable' por no tener información de la editorial o datos obligatorios.
+2026-11-08 18:09:24.760 [main] INFO  Ejercicio2.Controller.LibroController - Exportando libros del país 'Alemania' a CSV
+2026-11-08 18:09:24.762 [main] INFO  Ejercicio2.Service.LibroService - Exportación completada exitosamente. Se han guardado 0 libros del país 'Alemania' en 'libros_alemania.csv'.
+2026-11-08 18:09:24.763 [main] INFO  Ejercicio2.Controller.LibroController - Fichero CSV generado correctamente en: libros_alemania.csv
+2026-11-08 18:09:24.764 [main] INFO  Ejercicio2.Controller.LibroController - El nombre del viento | Editorial: Plaza & Janés | Autor: Patrick
+2026-11-08 18:09:24.764 [main] INFO  Ejercicio2.Controller.LibroController - El imperio final | Editorial: Nova | Autor: Brandon
+2026-11-08 18:09:24.764 [main] INFO  Ejercicio2.Controller.LibroController - Ready Player One | Editorial: Ediciones B | Autor: Ernest
+2026-11-08 18:09:24.765 [main] INFO  Ejercicio2.Controller.LibroController - Dune | Editorial: Minotauro | Autor: Frank
+2026-11-08 18:09:24.765 [main] INFO  Ejercicio2.Controller.LibroController - Juego de tronos | Editorial: Gigamesh | Autor: George Raymond Richard
+2026-11-08 18:10:20.452 [main] INFO  Ejercicio2.Controller.LibroController - Iniciando carga y validación de libros desde ambos ficheros JSON
+2026-11-08 18:10:20.534 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El nombre del viento' (ISBN: 9788497593793)
+2026-11-08 18:10:20.535 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'El camino de los reyes' por no tener información de la editorial o datos obligatorios.
+2026-11-08 18:10:20.535 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'El imperio final' (ISBN: 9788445002070)
+2026-11-08 18:10:20.535 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Ready Player One' (ISBN: 9788498890541)
+2026-11-08 18:10:20.535 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Neuromante' por no tener información de la editorial o datos obligatorios.
+2026-11-08 18:10:20.535 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Dune' (ISBN: 9788445003152)
+2026-11-08 18:10:20.535 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'Guía del autoestopista galáctico' por no tener información de la editorial o datos obligatorios.
+2026-11-08 18:10:20.536 [main] INFO  Ejercicio2.Service.LibroService - Libro dado de alta exitosamente: 'Juego de tronos' (ISBN: 9788445001233)
+2026-11-08 18:10:20.536 [main] ERROR Ejercicio2.Service.LibroService - No se ha podido realizar el alta del libro 'La historia interminable' por no tener información de la editorial o datos obligatorios.
+2026-11-08 18:10:20.536 [main] INFO  Ejercicio2.Controller.LibroController - Exportando libros del país 'Estados Unidos' a CSV
+2026-11-08 18:10:20.538 [main] INFO  Ejercicio2.Service.LibroService - Exportación completada exitosamente. Se han guardado 5 libros del país 'Estados Unidos' en 'libros_eeuu.csv'.
+2026-11-08 18:10:20.539 [main] INFO  Ejercicio2.Controller.LibroController - Fichero CSV generado correctamente en: libros_eeuu.csv
+2026-11-08 18:10:20.540 [main] INFO  Ejercicio2.Controller.LibroController - El nombre del viento | Editorial: Plaza & Janés | Autor: Patrick
+2026-11-08 18:10:20.540 [main] INFO  Ejercicio2.Controller.LibroController - El imperio final | Editorial: Nova | Autor: Brandon
+2026-11-08 18:10:20.540 [main] INFO  Ejercicio2.Controller.LibroController - Ready Player One | Editorial: Ediciones B | Autor: Ernest
+2026-11-08 18:10:20.540 [main] INFO  Ejercicio2.Controller.LibroController - Dune | Editorial: Minotauro | Autor: Frank
+2026-11-08 18:10:20.540 [main] INFO  Ejercicio2.Controller.LibroController - Juego de tronos | Editorial: Gigamesh | Autor: George Raymond Richard
