@@ -1,0 +1,195 @@
+[
+   {
+      "nombre":"Gran Árbol Deku",
+      "region":"Bosque Kokiri",
+      "epoca":"NINO",
+      "objeto":"Tirachinas",
+      "recompensa":"Esmeralda Kokiri",
+      "jefe":{
+         "nombre":"Gohma",
+         "contenedorCorazon":true
+      },
+      "completada":true,
+      "mejorTiempo":18.5
+   },
+   {
+      "nombre":"Caverna de los Dodongos",
+      "region":"Montaña de la Muerte",
+      "epoca":"NINO",
+      "objeto":"Bolsa de bombas",
+      "recompensa":"Rubí Goron",
+      "jefe":{
+         "nombre":"Rey Dodongo",
+         "contenedorCorazon":true
+      },
+      "completada":true,
+      "mejorTiempo":32.0
+   },
+   {
+      "nombre":"",
+      "region":"Fuente Zora",
+      "epoca":"ADULTO",
+      "objeto":"Botas de hierro",
+      "recompensa":"Ninguna",
+      "jefe":{
+         "nombre":"Lobo Blanco",
+         "contenedorCorazon":false
+      },
+      "completada":false,
+      "mejorTiempo":0.0
+   },
+   {
+      "nombre":"Tripa de Jabu-Jabu",
+      "region":"Fuente Zora",
+      "epoca":"NINO",
+      "objeto":"Bumerán",
+      "recompensa":"Zafiro Zora",
+      "jefe":{
+         "nombre":"Barinade",
+         "contenedorCorazon":true
+      },
+      "completada":true,
+      "mejorTiempo":41.2
+   },
+   {
+      "nombre":"Centro de Instrucción Gerudo",
+      "region":"Valle Gerudo",
+      "epoca":"ANCIANO",
+      "objeto":"Flechas de hielo",
+      "recompensa":"Ninguna",
+      "jefe":{
+         "nombre":"Instructora Gerudo",
+         "contenedorCorazon":false
+      },
+      "completada":true,
+      "mejorTiempo":25.0
+   },
+   {
+      "nombre":"Templo del Bosque",
+      "region":"Prado Sagrado",
+      "epoca":"ADULTO",
+      "objeto":"Arco de las hadas",
+      "recompensa":"Medallón del Bosque",
+      "jefe":{
+         "nombre":"Ganon Fantasma",
+         "contenedorCorazon":true
+      },
+      "completada":true,
+      "mejorTiempo":55.7
+   },
+   {
+      "nombre":"Pozo de Kakariko",
+      "region":"Kakariko",
+      "epoca":"NINO",
+      "objeto":"Lente de la Verdad",
+      "recompensa":"Ninguna",
+      "jefe":{
+         "nombre":"Mano Muerta",
+         "contenedorCorazon":false
+      },
+      "completada":true,
+      "mejorTiempo":22.4
+   },
+   {
+      "region":"Lago Hylia",
+      "epoca":"ADULTO",
+      "objeto":"Escama dorada",
+      "recompensa":"Ninguna",
+      "jefe":{
+         "nombre":"Pez gigante",
+         "contenedorCorazon":false
+      },
+      "completada":false,
+      "mejorTiempo":0.0
+   },
+   {
+      "nombre":"Templo del Fuego",
+      "region":"Montaña de la Muerte",
+      "epoca":"ADULTO",
+      "objeto":"Martillo Megatón",
+      "recompensa":"Medallón del Fuego",
+      "jefe":{
+         "nombre":"Volvagia",
+         "contenedorCorazon":true
+      },
+      "completada":false,
+      "mejorTiempo":0.0
+   },
+   {
+      "nombre":"Castillo de Ganon",
+      "region":"Castillo de Hyrule",
+      "epoca":"adulto",
+      "objeto":"Ninguno",
+      "recompensa":"Ninguna",
+      "jefe":{
+         "nombre":"Ganondorf",
+         "contenedorCorazon":false
+      },
+      "completada":false,
+      "mejorTiempo":0.0
+   },
+   {
+      "nombre":"Templo del Agua",
+      "region":"Lago Hylia",
+      "epoca":"ADULTO",
+      "objeto":"Gancho largo",
+      "recompensa":"Medallón del Agua",
+      "jefe":{
+         "nombre":"Morpha",
+         "contenedorCorazon":true
+      },
+      "completada":false,
+      "mejorTiempo":0.0
+   },
+   {
+      "nombre":"Templo de las Sombras",
+      "region":"Kakariko",
+      "epoca":"ADULTO",
+      "objeto":"Botas levitadoras",
+      "recompensa":"Medallón de las Sombras",
+      "jefe":{
+         "nombre":"Bongo Bongo",
+         "contenedorCorazon":true
+      },
+      "completada":false,
+      "mejorTiempo":0.0
+   },
+   {
+      "nombre":"Torre de Ganon",
+      "region":"Castillo de Hyrule",
+      "objeto":"Ninguno",
+      "recompensa":"Ninguna",
+      "jefe":{
+         "nombre":"Ganon",
+         "contenedorCorazon":false
+      },
+      "completada":false,
+      "mejorTiempo":0.0
+   },
+   {
+      "nombre":"Templo del Espíritu",
+      "region":"Coloso del Desierto",
+      "epoca":"AMBAS",
+      "objeto":"Guantes de plata",
+      "recompensa":"Medallón del Espíritu",
+      "jefe":{
+         "nombre":"Birova",
+         "contenedorCorazon":true
+      },
+      "completada":false,
+      "mejorTiempo":0.0
+   },
+   {
+      "nombre":"Templo del Bosque",
+      "region":"Prado Sagrado",
+      "epoca":"ADULTO",
+      "objeto":"Arco de las hadas",
+      "recompensa":"Medallón del Bosque",
+      "jefe":{
+         "nombre":"Ganon Fantasma",
+         "contenedorCorazon":true
+      },
+      "completada":true,
+      "mejorTiempo":49.0
+   }
+]

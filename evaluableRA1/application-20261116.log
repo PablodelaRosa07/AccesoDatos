@@ -1,0 +1,639 @@
+2026-11-16 09:03:57.575 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:03:57.577 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:03:57.577 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:03:57.577 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:06:21.919 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:06:21.921 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:06:21.921 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:06:21.921 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:06:46.318 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:06:46.321 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:06:46.321 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:06:46.321 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:09:50.832 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:09:50.835 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:09:50.836 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:09:50.836 [main] ERROR Repository.MazmorraRepository - Dato en fichero no válido
+2026-11-16 09:11:36.546 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.549 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por no tener información suficiente.
+2026-11-16 09:11:36.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.550 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.550 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.550 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por no tener información suficiente.
+2026-11-16 09:11:36.550 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.550 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.550 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.550 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.550 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.550 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:11:36.551 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.632 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.635 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.636 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 09:13:23.636 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.636 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.636 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.636 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.636 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 09:13:23.636 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.636 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.636 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.637 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.637 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.637 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:13:23.637 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:14:54.950 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:14:54.952 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:14:54.952 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:14:54.952 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.239 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.242 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.242 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.242 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.242 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.243 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.243 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.243 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 09:15:45.243 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.243 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.243 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.243 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.243 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.243 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:15:45.243 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:16:11.554 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra Gran Árbol Deku por fallos en la información.
+2026-11-16 09:16:11.559 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra Caverna de los Dodongos por fallos en la información.
+2026-11-16 09:16:11.559 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 09:16:11.559 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra Tripa de Jabu-Jabu por fallos en la información.
+2026-11-16 09:18:12.809 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.811 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.811 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.811 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:12.812 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.537 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.539 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.539 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 09:18:50.539 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.540 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.540 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.540 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.540 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 09:18:50.540 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.540 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.540 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.540 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.540 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.540 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:18:50.541 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.242 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.244 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.244 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.244 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.244 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.244 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.244 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.245 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.245 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.245 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.245 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.245 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.245 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.245 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:19:45.245 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.485 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.487 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.487 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 09:21:19.488 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.488 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.488 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.488 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.488 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 09:21:19.488 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.488 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.488 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.488 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.489 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.489 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:21:19.489 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.638 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.641 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.641 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 09:49:55.641 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.641 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.641 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.641 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.641 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 09:49:55.641 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.641 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.641 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.642 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.642 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.642 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:49:55.642 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.499 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.502 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.502 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 09:50:24.502 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.502 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.502 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.502 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.503 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 09:50:24.503 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.503 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.503 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.503 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.503 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.503 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 09:50:24.503 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:00:55.783 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:00:55.785 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:00:55.785 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:01:13.749 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.751 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.751 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:01:13.751 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.752 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:01:13.753 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:01:13.753 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:01:13.753 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:05:09.483 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.485 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.485 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:05:09.485 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.485 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.485 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.486 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.486 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:05:09.486 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.486 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.486 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.486 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.486 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.486 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.486 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:05:09.487 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:05:09.487 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:05:09.487 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:06:54.422 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.427 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.427 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:06:54.427 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.427 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.428 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.428 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.428 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:06:54.428 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.428 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.428 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.428 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.428 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.428 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.428 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:06:54.429 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:06:54.429 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:06:54.429 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:07:18.345 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.347 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.348 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:07:18.348 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.348 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.348 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.348 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.348 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:07:18.348 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.348 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.348 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.348 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.348 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.349 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.349 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:07:18.349 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:07:18.349 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:07:18.349 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:08:41.088 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.092 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.092 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:08:41.092 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.092 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.092 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.092 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.092 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:08:41.093 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.093 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.093 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.093 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.093 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.093 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.093 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:08:41.094 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:08:41.094 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:08:41.094 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:09:41.644 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.647 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.647 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:09:41.647 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.647 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.647 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.648 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.648 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:09:41.648 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.648 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.648 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.648 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.648 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.648 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.648 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:09:41.649 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:09:41.649 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:09:41.649 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:12:45.696 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.700 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.700 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:12:45.700 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.700 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.700 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.700 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.700 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:12:45.701 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.701 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.701 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.701 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.701 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.701 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.701 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:12:45.702 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:12:45.702 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:12:45.702 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:06.135 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.138 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.138 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:36:06.138 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.138 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.138 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.138 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.139 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:36:06.139 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.139 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.139 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.139 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.139 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.139 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.139 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:06.140 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:06.140 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:06.140 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:23.183 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.185 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.185 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:36:23.185 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.185 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.185 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.186 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.186 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:36:23.186 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.186 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.186 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.186 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.186 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.186 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.186 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:23.187 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:23.187 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:23.187 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:23.189 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:36:39.760 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.764 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.764 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:36:39.764 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.764 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.764 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.764 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.764 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:36:39.764 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.764 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.765 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.765 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.765 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.765 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.765 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:36:39.765 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:39.766 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:39.766 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:36:39.767 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:38:09.660 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.663 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.663 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:38:09.663 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.663 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.663 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.663 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.663 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:38:09.663 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.664 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.664 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.664 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.664 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.664 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.664 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:38:09.665 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:38:09.665 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:38:09.665 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:38:09.667 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:39:21.009 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.011 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.011 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:39:21.011 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.011 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.011 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.012 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.012 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:39:21.012 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.012 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.012 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.012 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.012 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.012 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.012 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:21.013 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:39:21.013 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:39:21.013 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:39:21.015 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:39:46.232 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.235 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.235 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:39:46.235 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.235 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.235 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.235 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.236 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:39:46.236 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.236 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.236 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.236 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.236 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.236 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.236 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:39:46.237 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:39:46.237 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:39:46.237 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:39:46.239 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:42:47.996 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:47.999 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:47.999 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:42:47.999 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:47.999 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.000 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.000 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.000 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:42:48.000 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.000 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.000 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.000 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.000 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.000 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.000 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:42:48.001 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:42:48.001 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:42:48.001 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:43:59.053 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.609 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.612 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.612 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:45:21.612 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.612 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.612 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.612 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.612 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:45:21.613 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.613 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.613 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.613 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.613 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.613 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.613 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:45:21.614 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:45:21.614 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:45:21.614 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:45:21.616 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:46:31.868 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.871 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.871 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:46:31.871 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.871 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.871 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.871 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.871 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:46:31.871 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.872 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.872 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.872 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.872 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.872 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.872 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:46:31.872 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:46:31.873 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:46:31.873 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:46:31.875 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:48:00.164 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.167 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.168 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:48:00.168 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.168 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.168 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.168 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.169 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:48:00.169 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.169 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.169 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.169 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.169 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.169 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:48:00.169 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.283 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.285 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.285 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:50:33.285 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.285 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.285 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.286 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.286 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:50:33.286 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.286 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.286 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.286 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.286 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.286 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.286 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:50:33.287 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:50:33.287 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:50:33.287 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:52:05.302 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.304 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.304 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:52:05.304 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.305 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.305 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.305 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.305 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:52:05.305 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.305 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.305 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.305 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.305 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.305 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.306 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:52:05.306 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:52:05.306 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:52:05.306 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:53:42.770 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.773 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.773 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:53:42.773 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.773 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.773 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.773 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.773 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:53:42.773 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.774 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.774 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.774 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.774 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.774 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.774 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:53:42.775 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:53:42.775 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:53:42.775 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:54:04.421 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.425 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.425 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:54:04.425 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.425 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.426 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.426 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.426 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:54:04.426 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.426 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.426 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.426 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.426 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.426 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.427 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:04.427 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:54:04.427 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:54:04.427 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:54:21.441 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.443 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.443 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:54:21.443 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.443 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.443 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.443 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.444 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:54:21.444 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.444 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.444 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.444 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.444 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.444 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.444 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:54:21.445 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:54:21.445 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:54:21.445 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:09.071 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.074 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.074 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:55:09.074 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.074 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.074 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.074 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.074 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:55:09.074 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.074 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.074 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.075 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.075 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.075 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.075 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:09.075 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:09.075 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:09.076 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:09.078 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:55:30.206 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.208 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.208 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:55:30.208 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.209 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:30.210 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:30.210 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:30.210 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:30.212 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:55:44.546 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.548 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.548 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:55:44.548 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.548 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.549 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:55:44.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.549 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.550 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:55:44.550 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:44.550 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:44.550 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:55:44.552 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV
+2026-11-16 10:56:32.940 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.942 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.943 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra  por fallos en la información.
+2026-11-16 10:56:32.943 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.943 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.943 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.943 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.943 [main] ERROR Service.PartidaService - No se ha podido realizar el alta de la mazmorra null por fallos en la información.
+2026-11-16 10:56:32.943 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.943 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.943 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.943 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.943 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.944 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.944 [main] INFO  Service.PartidaService - Mazmorra guardada exitosamente
+2026-11-16 10:56:32.944 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:56:32.944 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:56:32.945 [main] INFO  Repository.MazmorraRepository - []
+2026-11-16 10:56:32.946 [main] INFO  Service.PartidaService - Exportación completada exitosamente. Se han guardado las mazmorras en CSV

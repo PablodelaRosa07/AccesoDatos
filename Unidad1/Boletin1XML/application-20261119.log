@@ -1,0 +1,35 @@
+2026-11-19 08:56:13.007 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Gran Torino | Año: 1999 | Director: Wachowski Brothers
+2026-11-19 08:56:13.009 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: The Matrix | Año: 1999 | Director: Wachowski Brothers
+2026-11-19 08:56:13.010 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Titanic | Año: 1999 | Director: James Cameron
+2026-11-19 08:56:13.010 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: The Sixth Sense | Año: 1999 | Director: M. Night Shyamalan
+2026-11-19 08:56:13.010 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar
+2026-11-19 08:56:13.010 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar
+2026-11-19 08:56:13.010 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar
+2026-11-19 09:43:16.183 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Gran Torino | Año: 1999 | Director: Wachowski Brothers
+2026-11-19 09:43:16.185 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: The Matrix | Año: 1999 | Director: Wachowski Brothers
+2026-11-19 09:43:16.185 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Titanic | Año: 1999 | Director: James Cameron
+2026-11-19 09:43:16.185 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: The Sixth Sense | Año: 1999 | Director: M. Night Shyamalan
+2026-11-19 09:43:16.185 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar
+2026-11-19 09:43:16.185 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar
+2026-11-19 09:43:16.185 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar
+2026-11-19 09:43:46.384 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Gran Torino | Año: 1999 | Director: Wachowski Brothers | Actores: []
+2026-11-19 09:43:46.386 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: The Matrix | Año: 1999 | Director: Wachowski Brothers | Actores: []
+2026-11-19 09:43:46.387 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Titanic | Año: 1999 | Director: James Cameron | Actores: []
+2026-11-19 09:43:46.387 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: The Sixth Sense | Año: 1999 | Director: M. Night Shyamalan | Actores: []
+2026-11-19 09:43:46.387 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar | Actores: []
+2026-11-19 09:43:46.387 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar | Actores: []
+2026-11-19 09:43:46.387 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar | Actores: []
+2026-11-19 09:58:42.171 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Gran Torino | Año: 1999 | Director: Wachowski Brothers | Actores: []
+2026-11-19 09:58:42.172 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título:  | Año:  | Director:  | Actores: []
+2026-11-19 09:58:42.173 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título:  | Año:  | Director:  | Actores: []
+2026-11-19 09:58:42.173 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título:  | Año:  | Director:  | Actores: []
+2026-11-19 09:58:42.173 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título:  | Año:  | Director:  | Actores: []
+2026-11-19 09:58:42.173 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título:  | Año:  | Director:  | Actores: []
+2026-11-19 09:58:42.173 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título:  | Año:  | Director:  | Actores: []
+2026-11-19 09:59:03.498 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Gran Torino | Año: 1999 | Director: Wachowski Brothers | Actores: []
+2026-11-19 09:59:03.499 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: The Matrix | Año: 1999 | Director: Wachowski Brothers | Actores: []
+2026-11-19 09:59:03.499 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Titanic | Año: 1999 | Director: James Cameron | Actores: []
+2026-11-19 09:59:03.500 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: The Sixth Sense | Año: 1999 | Director: M. Night Shyamalan | Actores: []
+2026-11-19 09:59:03.500 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar | Actores: []
+2026-11-19 09:59:03.500 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar | Actores: []
+2026-11-19 09:59:03.500 [main] INFO  Ejercicio1.Controller.GestionaPeliculas - Título: Tesis | Año: 0 | Director: Amenabar | Actores: []
