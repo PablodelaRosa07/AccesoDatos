@@ -41,9 +41,7 @@ public class XMLDomPeliculas {
     }
 
     public List<Pelicula> cargarPeliculas(String nombreFichero) {
-        List<Pelicula> peliculas = new ArrayList<>();
-        List<Pelicula> peliculasDefinitivas = new ArrayList<>();
-        List<String> listaActores = new ArrayList<String>();
+        List<Pelicula> peliculas = new ArrayList<Pelicula>();
         Document doc = getDocumentFromXML(nombreFichero);
 
         if (doc != null) {
@@ -53,26 +51,35 @@ public class XMLDomPeliculas {
                 if (nodo.getNodeType() == Node.ELEMENT_NODE) {
                     Element elem = (Element) nodo;
                     String titulo = obtenerTexto(elem, "Titulo");
+                    String duracion = obtenerTexto(elem, "Duracion");
+                    String genero = obtenerTexto(elem, "Genero");
+                    String sinopsis = obtenerTexto(elem, "sinopsis");
                     String fecha = obtenerTexto(elem, "Fecha");
-                    String director = obtenerTexto(elem, "Director");                    
-                    String actor = obtenerTexto(elem, "Actor");
-                    listaActores.add(actor);
-                    peliculas.add(new Pelicula(titulo, fecha, director, listaActores));
-                }
-            }
-            
-            nodos = doc.getElementsByTagName("Actores");
-            for (int i = 0; i < nodos.getLength(); i++) {
-            	Node nodo = nodos.item(0);
-            	if (nodo.getNodeType() == Node.ELEMENT_NODE) {
-                    Element elem = (Element) nodo;                   
-                    String actor = obtenerTexto(elem, "Actor");
-                    listaActores.add(i, actor);
+                    String director = obtenerTexto(elem, "Director");
+                    List<String> listaActores = obtenerListaActores(elem);
+
+                    Pelicula p = new Pelicula(titulo, duracion, genero, sinopsis, fecha, director, listaActores);
+                    peliculas.add(p);
                 }
             }
         }
 
         return peliculas;
+    }
+
+    private List<String> obtenerListaActores(Element padrePelicula) {
+        List<String> actores = new ArrayList<String>();
+        NodeList nodosActores = padrePelicula.getElementsByTagName("Actor");
+        for (int i = 0; i < nodosActores.getLength(); i++) {
+            Node nodoActor = nodosActores.item(i);
+            if (nodoActor != null && nodoActor.getNodeType() == Node.ELEMENT_NODE) {
+                String nombreActor = nodoActor.getTextContent().trim();
+                if (!nombreActor.isEmpty()) {
+                    actores.add(nombreActor);
+                }
+            }
+        }
+        return actores;
     }
 
     private String obtenerTexto(Element padre, String etiqueta) {

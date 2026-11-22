@@ -12,30 +12,35 @@ public class Pelicula {
     private String sinopsis;
     private String fecha;
     private String director;
-    private List<String> listaActores; 
+    private List<String> listaActores;
 
     public Pelicula() {
+        this.listaActores = new ArrayList<String>();
     }
 
-    
+    public Pelicula(String titulo, String fecha, String director, List<String> listaActores) {
+        this.titulo = titulo;
+        this.fecha = fecha;
+        this.director = director;
+        if (listaActores != null) {
+            this.listaActores = listaActores;
+        } else {
+            this.listaActores = new ArrayList<String>();
+        }
+    }
 
-	public Pelicula(String titulo, String fecha, String director, List<String> listaActores) {
-		super();
-		this.titulo = titulo;
-		this.fecha = fecha;
-		this.director = director;
-		this.listaActores = new ArrayList<String>();
-	}
-
-
-
-	public Pelicula(String titulo, String duracion, String genero, String sinopsis, String fecha, String director) {
+    public Pelicula(String titulo, String duracion, String genero, String sinopsis, String fecha, String director, List<String> listaActores) {
         this.titulo = titulo;
         this.duracion = duracion;
         this.genero = genero;
         this.sinopsis = sinopsis;
         this.fecha = fecha;
         this.director = director;
+        if (listaActores != null) {
+            this.listaActores = listaActores;
+        } else {
+            this.listaActores = new ArrayList<String>();
+        }
     }
 
     public String getTitulo() {
@@ -85,42 +90,41 @@ public class Pelicula {
     public void setDirector(String director) {
         this.director = director;
     }
-    
-    
 
     public List<String> getListaActores() {
-		return listaActores;
-	}
+        return listaActores;
+    }
 
-	public void setListaActores(List<String> listaActores) {
-		this.listaActores = listaActores;
-	}
+    public void setListaActores(List<String> listaActores) {
+        this.listaActores = listaActores;
+    }
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(director, duracion, fecha, genero, listaActores, sinopsis, titulo);
-	}
+    @Override
+    public int hashCode() {
+        return Objects.hash(director, duracion, fecha, genero, listaActores, sinopsis, titulo);
+    }
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Pelicula other = (Pelicula) obj;
-		return Objects.equals(director, other.director) && Objects.equals(duracion, other.duracion)
-				&& Objects.equals(fecha, other.fecha) && Objects.equals(genero, other.genero)
-				&& Objects.equals(listaActores, other.listaActores) && Objects.equals(sinopsis, other.sinopsis)
-				&& Objects.equals(titulo, other.titulo);
-	}
+    @Override
+    public boolean equals(Object obj) {
+        boolean iguales = false;
+        if (this == obj) {
+            iguales = true;
+        } else if (obj != null && getClass() == obj.getClass()) {
+            Pelicula other = (Pelicula) obj;
+            iguales = Objects.equals(director, other.director)
+                    && Objects.equals(duracion, other.duracion)
+                    && Objects.equals(fecha, other.fecha)
+                    && Objects.equals(genero, other.genero)
+                    && Objects.equals(listaActores, other.listaActores)
+                    && Objects.equals(sinopsis, other.sinopsis)
+                    && Objects.equals(titulo, other.titulo);
+        }
+        return iguales;
+    }
 
-	@Override
-	public String toString() {
-		return "Pelicula [titulo=" + titulo + ", duracion=" + duracion + ", genero=" + genero + ", sinopsis=" + sinopsis
-				+ ", fecha=" + fecha + ", director=" + director + ", listaActores=" + listaActores + "]";
-	}
-
-	
+    @Override
+    public String toString() {
+        return "Pelicula [titulo=" + titulo + ", duracion=" + duracion + ", genero=" + genero + ", sinopsis=" + sinopsis
+                + ", fecha=" + fecha + ", director=" + director + ", listaActores=" + listaActores + "]";
+    }
 }
