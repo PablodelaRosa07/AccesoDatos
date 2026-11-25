@@ -22,18 +22,18 @@ public class GestionaPeliculas {
     }
 
     public List<Pelicula> listarPeliculas(String nombreFichero) {
-        List<Pelicula> peliculas = peliculaService.obtenerPeliculas(nombreFichero);
+        List<Pelicula> peliculas = peliculaService.obtenerPeliculas(nombreFichero);  // Lee y carga la lista de peliculas
         return peliculas;
     }
 
     public static void main(String[] args) {
         GestionaPeliculas gestiona = new GestionaPeliculas();
-        List<Pelicula> peliculas = gestiona.listarPeliculas("peliculas.xml");
+        List<Pelicula> peliculas = gestiona.listarPeliculas("peliculas.xml");  // Llama a la funcion pasandole nombreFichero
 
         if (peliculas.isEmpty()) {
-            logger.info("No se encontraron películas en el fichero.");
+            logger.info("No se encontraron películas en el fichero.");   // La lista está vacía (no se está guardando)
         } else {
-            for (int i = 0; i < peliculas.size(); i++) {
+            for (int i = 0; i < peliculas.size(); i++) {   // Itera sobre la lista de peliculas para imprimirla
                 Pelicula p = peliculas.get(i);
                 logger.info("Título: " + p.getTitulo()
                         + " | Año: " + p.getFecha()

@@ -1,42 +1,37 @@
 package Ejercicio1.Models;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-
 public class Puesto {
-	
-	private static final Logger logger = LogManager.getLogger(Puesto.class);
 
 	private String idPuesto;
 	private String nombrePuesto;
 	private String departamento;
 	private double salario;
-	
-	
-	
+
 	public Puesto(String nombrePuesto, double salario) {
 		super();
-		try {
-			if (nombrePuesto != null) {
-				this.nombrePuesto = nombrePuesto;
-			}
-			else {
-				throw new Exception();
-			}
-			if (salario > 0.0) {
-				this.salario = salario;
-			}
-			else {
-				throw new Exception();
-			}
-			
-		} catch (Exception e) {
-			logger.error("No se ha podido crear el objeto, problemas en el constructor");
+		if (nombrePuesto == null || nombrePuesto.trim().isEmpty()) {
+			throw new IllegalArgumentException("El nombre del puesto no es valido");
 		}
+		if (salario <= 0.0) {
+			throw new IllegalArgumentException("El salario debe ser mayor que 0.0");
+		}
+		this.nombrePuesto = nombrePuesto.trim();
+		this.salario = salario;
 	}
 
-
+	public Puesto(String idPuesto, String nombrePuesto, String departamento, double salario) {
+		super();
+		if (nombrePuesto == null || nombrePuesto.trim().isEmpty()) {
+			throw new IllegalArgumentException("El nombre del puesto no es valido");
+		}
+		if (salario <= 0.0) {
+			throw new IllegalArgumentException("El salario debe ser mayor que 0.0");
+		}
+		this.idPuesto = idPuesto;
+		this.nombrePuesto = nombrePuesto.trim();
+		this.departamento = departamento;
+		this.salario = salario;
+	}
 
 	public String getIdPuesto() {
 		return idPuesto;
@@ -70,18 +65,9 @@ public class Puesto {
 		this.salario = salario;
 	}
 
-
-
 	@Override
 	public String toString() {
-		return "Puesto [nombrePuesto=" + nombrePuesto + ", salario=" + salario + "]";
+		return "Puesto [idPuesto=" + idPuesto + ", nombrePuesto=" + nombrePuesto + ", departamento=" + departamento
+				+ ", salario=" + salario + "]";
 	}
-
-
-
-	
-	
-	
-	
-	
 }

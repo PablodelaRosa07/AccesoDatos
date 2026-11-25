@@ -30,10 +30,10 @@ public class XMLDomPeliculas {
     public Document getDocumentFromXML(String nombreFichero) { // "Convierte" el xml en legible
         Document doc = null;
         try {
-            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder builder = factory.newDocumentBuilder();
-            doc = builder.parse(new File(rutaResources + nombreFichero));
-            doc.getDocumentElement().normalize();
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();  // Preguntar a Soraya qué hace exactamente
+            DocumentBuilder builder = factory.newDocumentBuilder();					// ===
+            doc = builder.parse(new File(rutaResources + nombreFichero));			// ===
+            doc.getDocumentElement().normalize();									// ===
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -42,7 +42,7 @@ public class XMLDomPeliculas {
 
     public List<Pelicula> cargarPeliculas(String nombreFichero) { // Carga los valores de los atributos
         List<Pelicula> peliculas = new ArrayList<Pelicula>();
-        Document doc = getDocumentFromXML(nombreFichero);
+        Document doc = getDocumentFromXML(nombreFichero);			// Guarda el fichero en una variable llamada doc, que llama a una funcion que returnea el documento
 
         if (doc != null) {
             NodeList nodos = doc.getElementsByTagName("Pelicula"); 			 // Obtiene el objeto donde se encuentran todos los valores y los guarda en una listaNode
@@ -69,12 +69,12 @@ public class XMLDomPeliculas {
 
     private List<String> obtenerListaActores(Element padrePelicula) {			  // Obtiene el objeto ya buscado
         List<String> actores = new ArrayList<String>();
-        NodeList nodosActores = padrePelicula.getElementsByTagName("Actor");	// 	Crea una listaNode del objeto pelicula 
+        NodeList nodosActores = padrePelicula.getElementsByTagName("Actor");	// Crea una listaNode del objeto pelicula 
         for (int i = 0; i < nodosActores.getLength(); i++) {					// En vez de iterar sobre el objeto pelicula, lo hace sobre el objeto actor, cada actor se guarda por separado en la lista
             Node nodoActor = nodosActores.item(i);
-            if (nodoActor != null && nodoActor.getNodeType() == Node.ELEMENT_NODE) {
+            if (nodoActor != null && nodoActor.getNodeType() == Node.ELEMENT_NODE) {    // Igual que antes
                 String nombreActor = nodoActor.getTextContent().trim();
-                if (!nombreActor.isEmpty()) {
+                if (!nombreActor.isEmpty()) {                                   // Comprueba que no esté vacío (la cadena String ya está creada por tanto, o está vacía, o tiene el valor)
                     actores.add(nombreActor);
                 }
             }

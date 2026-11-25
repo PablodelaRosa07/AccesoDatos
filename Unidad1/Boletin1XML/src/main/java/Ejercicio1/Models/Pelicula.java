@@ -14,9 +14,6 @@ public class Pelicula {
     private String director;
     private List<String> listaActores;
 
-    public Pelicula() {
-        this.listaActores = new ArrayList<String>();
-    }
 
     public Pelicula(String titulo, String fecha, String director, List<String> listaActores) {
         this.titulo = titulo;

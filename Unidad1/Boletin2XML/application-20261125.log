@@ -1,2 +1,194 @@
 2026-11-25 11:54:30.881 [main] INFO  Ejercicio1.Controller.Controlador - [Empleado [nombreApellidos=Pablo, empresa=NTT, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Pepe, empresa=Ayesa, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Elena, empresa=NTT, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Javier, empresa=NTT, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Sergio, empresa=Ayesa, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]]]
 2026-11-25 11:54:38.155 [main] INFO  Ejercicio1.Controller.Controlador - [Empleado [nombreApellidos=Pablo, empresa=NTT, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Pepe, empresa=Ayesa, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Elena, empresa=NTT, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Javier, empresa=NTT, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Sergio, empresa=Ayesa, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]]]
+2026-11-25 17:42:46.534 [main] INFO  Ejercicio1.Controller.Controlador - [Empleado [nombreApellidos=Pablo, empresa=NTT, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Pepe, empresa=Ayesa, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Elena, empresa=NTT, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Javier, empresa=NTT, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]], Empleado [nombreApellidos=Sergio, empresa=Ayesa, puesto=Puesto [nombrePuesto=Junior, salario=1234.56]]]
+2026-11-25 18:32:57.071 [main] ERROR Ejercicio1.Service.UtilesXMLDom - El fichero XML no existe: empleados_100.xml
+2026-11-25 18:32:57.075 [main] INFO  Ejercicio1.Controller.Controlador - Total de empleados cargados: 0
+2026-11-25 18:33:18.395 [main] ERROR Ejercicio1.Service.UtilesXMLDom - El fichero XML no existe: empleados_100.xml
+2026-11-25 18:33:18.398 [main] INFO  Ejercicio1.Controller.Controlador - Total de empleados cargados: 0
+2026-11-25 18:33:38.404 [main] ERROR Ejercicio1.Service.UtilesXMLDom - El fichero XML no existe: empleados_100.xml
+2026-11-25 18:33:38.408 [main] INFO  Ejercicio1.Controller.Controlador - Total de empleados cargados: 0
+2026-11-25 18:33:57.349 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 9 del XML
+java.lang.IllegalArgumentException: El nombre y apellidos no son validos
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:45) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.360 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 18 del XML
+java.lang.IllegalArgumentException: La empresa no es valida
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:48) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.362 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 27 del XML
+java.lang.IllegalArgumentException: El empleado no tiene ningun puesto asociado
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:176) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.363 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 36 del XML
+java.lang.IllegalArgumentException: El nombre del puesto no es valido
+	at Ejercicio1.Models.Puesto.<init>(Puesto.java:25) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:193) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.365 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 45 del XML
+java.lang.IllegalArgumentException: El salario del puesto no puede estar vacio
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:189) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.367 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 54 del XML
+java.lang.IllegalArgumentException: El nombre y apellidos no son validos
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:45) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.368 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 63 del XML
+java.lang.IllegalArgumentException: La empresa no es valida
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:48) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.370 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 72 del XML
+java.lang.IllegalArgumentException: El empleado no tiene ningun puesto asociado
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:176) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.371 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 81 del XML
+java.lang.IllegalArgumentException: El nombre del puesto no es valido
+	at Ejercicio1.Models.Puesto.<init>(Puesto.java:25) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:193) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.372 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 90 del XML
+java.lang.IllegalArgumentException: El salario del puesto no puede estar vacio
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:189) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.373 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 96 del XML
+java.lang.IllegalArgumentException: La empresa no es valida
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:48) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.374 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 99 del XML
+java.lang.IllegalArgumentException: El salario del puesto no puede estar vacio
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:189) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:33:57.375 [main] INFO  Ejercicio1.Controller.Controlador - Total de empleados cargados: 88
+2026-11-25 18:35:37.206 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 9 del XML
+java.lang.IllegalArgumentException: El nombre y apellidos no son validos
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:45) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.214 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 18 del XML
+java.lang.IllegalArgumentException: La empresa no es valida
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:48) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.215 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 27 del XML
+java.lang.IllegalArgumentException: El empleado no tiene ningun puesto asociado
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:176) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.216 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 36 del XML
+java.lang.IllegalArgumentException: El nombre del puesto no es valido
+	at Ejercicio1.Models.Puesto.<init>(Puesto.java:25) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:193) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.216 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 45 del XML
+java.lang.IllegalArgumentException: El salario del puesto no puede estar vacio
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:189) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.217 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 54 del XML
+java.lang.IllegalArgumentException: El nombre y apellidos no son validos
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:45) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.218 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 63 del XML
+java.lang.IllegalArgumentException: La empresa no es valida
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:48) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.219 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 72 del XML
+java.lang.IllegalArgumentException: El empleado no tiene ningun puesto asociado
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:176) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.220 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 81 del XML
+java.lang.IllegalArgumentException: El nombre del puesto no es valido
+	at Ejercicio1.Models.Puesto.<init>(Puesto.java:25) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:193) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.220 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 90 del XML
+java.lang.IllegalArgumentException: El salario del puesto no puede estar vacio
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:189) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.221 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 96 del XML
+java.lang.IllegalArgumentException: La empresa no es valida
+	at Ejercicio1.Models.Empleado.validarDatosBasicos(Empleado.java:48) ~[classes/:?]
+	at Ejercicio1.Models.Empleado.<init>(Empleado.java:32) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:151) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.222 [main] ERROR Ejercicio1.Service.UtilesXMLDom - Error al procesar el empleado en la posicion 99 del XML
+java.lang.IllegalArgumentException: El salario del puesto no puede estar vacio
+	at Ejercicio1.Service.UtilesXMLDom.leerPuestosDeEmpleado(UtilesXMLDom.java:189) ~[classes/:?]
+	at Ejercicio1.Service.UtilesXMLDom.leerEmpleadosDesdeXML(UtilesXMLDom.java:149) [classes/:?]
+	at Ejercicio1.Repository.EmpleadoRepositorio.cargarDesdeFichero(EmpleadoRepositorio.java:27) [classes/:?]
+	at Ejercicio1.Service.EmpleadoService.cargarEmpleadosDesdeXML(EmpleadoService.java:26) [classes/:?]
+	at Ejercicio1.Controller.Controlador.main(Controlador.java:17) [classes/:?]
+2026-11-25 18:35:37.223 [main] INFO  Ejercicio1.Controller.Controlador - Total de empleados cargados: 88
+2026-11-25 18:35:37.224 [main] INFO  Ejercicio1.Controller.Controlador - [Empleado [nombreApellidos=Lucía García, empresa=TecnoSur, puestos=[Puesto [idPuesto=p100, nombrePuesto=Desarrollador Java, departamento=Informática, salario=32500.0]]], Empleado [nombreApellidos=Carlos Rodríguez, empresa=Innovatech, puestos=[Puesto [idPuesto=p101, nombrePuesto=Analista de Marketing, departamento=Marketing, salario=36000.0]]], Empleado [nombreApellidos=María López, empresa=Andalucía Digital, puestos=[Puesto [idPuesto=p102, nombrePuesto=Técnico de Sistemas, departamento=Informática, salario=29500.0]]], Empleado [nombreApellidos=Javier Martín, empresa=Soluciones Atlas, puestos=[Puesto [idPuesto=p103, nombrePuesto=Responsable de Ventas, departamento=Comercial, salario=43000.0]]], Empleado [nombreApellidos=Ana Fernández, empresa=Nexo Consulting, puestos=[Puesto [idPuesto=p104, nombrePuesto=Diseñador UX, departamento=Diseño, salario=33000.0]]], Empleado [nombreApellidos=Pablo Sánchez, empresa=Horizonte Software, puestos=[Puesto [idPuesto=p105, nombrePuesto=Analista de Datos, departamento=Analítica, salario=37500.0]]], Empleado [nombreApellidos=Elena Romero, empresa=Grupo Alborán, puestos=[Puesto [idPuesto=p106, nombrePuesto=Administrativo, departamento=Administración, salario=24000.0]]], Empleado [nombreApellidos=David Torres, empresa=DataNova, puestos=[Puesto [idPuesto=p107, nombrePuesto=Especialista en RRHH, departamento=Recursos Humanos, salario=32500.0]]], Empleado [nombreApellidos=Miguel Ruiz, empresa=Empresa, puestos=[Puesto [idPuesto=p109, nombrePuesto=Jefe de Proyecto, departamento=Informática, salario=46000.0]]], Empleado [nombreApellidos=Carmen Molina, empresa=TecnoSur, puestos=[Puesto [idPuesto=p100, nombrePuesto=Desarrollador Java, departamento=Informática, salario=32500.0]]], Empleado [nombreApellidos=Álvaro Castro, empresa=Innovatech, puestos=[Puesto [idPuesto=p101, nombrePuesto=Analista de Marketing, departamento=Marketing, salario=36000.0]]], Empleado [nombreApellidos=Paula Ortega, empresa=Andalucía Digital, puestos=[Puesto [idPuesto=p102, nombrePuesto=Técnico de Sistemas, departamento=Informática, salario=29500.0]]], Empleado [nombreApellidos=Hugo Jiménez, empresa=Soluciones Atlas, puestos=[Puesto [idPuesto=p103, nombrePuesto=Responsable de Ventas, departamento=Comercial, salario=43000.0]]], Empleado [nombreApellidos=Irene Delgado, empresa=Nexo Consulting, puestos=[Puesto [idPuesto=p104, nombrePuesto=Diseñador UX, departamento=Diseño, salario=33000.0]]], Empleado [nombreApellidos=Daniel Moreno, empresa=Horizonte Software, puestos=[Puesto [idPuesto=p105, nombrePuesto=Analista de Datos, departamento=, salario=37500.0]]], Empleado [nombreApellidos=Claudia Vega, empresa=Grupo Alborán, puestos=[Puesto [idPuesto=p106, nombrePuesto=Administrativo, departamento=Administración, salario=24000.0]]], Empleado [nombreApellidos=Nuria Herrera, empresa=EcoGestión, puestos=[Puesto [idPuesto=p108, nombrePuesto=Contable, departamento=Finanzas, salario=31000.0]]], Empleado [nombreApellidos=Adrián Gil, empresa=Empresa, puestos=[Puesto [idPuesto=p109, nombrePuesto=Jefe de Proyecto, departamento=Informática, salario=46000.0]]], Empleado [nombreApellidos=Lucía García, empresa=TecnoSur, puestos=[Puesto [idPuesto=p100, nombrePuesto=Desarrollador Java, departamento=Informática, salario=32500.0]]], Empleado [nombreApellidos=Carlos Rodríguez, empresa=Innovatech, puestos=[Puesto [idPuesto=, nombrePuesto=Analista de Marketing, departamento=Marketing, salario=36000.0]]], Empleado [nombreApellidos=María López, empresa=Andalucía Digital, puestos=[Puesto [idPuesto=p102, nombrePuesto=Técnico de Sistemas, departamento=Informática, salario=29500.0]]], Empleado [nombreApellidos=Javier Martín, empresa=Soluciones Atlas, puestos=[Puesto [idPuesto=p103, nombrePuesto=Responsable de Ventas, departamento=Comercial, salario=43000.0]]], Empleado [nombreApellidos=Ana Fernández, empresa=Nexo Consulting, puestos=[Puesto [idPuesto=p104, nombrePuesto=Diseñador UX, departamento=Diseño, salario=33000.0]]], Empleado [nombreApellidos=Pablo Sánchez, empresa=Horizonte Software, puestos=[Puesto [idPuesto=p105, nombrePuesto=Analista de Datos, departamento=Analítica, salario=37500.0]]], Empleado [nombreApellidos=David Torres, empresa=DataNova, puestos=[Puesto [idPuesto=p107, nombrePuesto=Especialista en RRHH, departamento=Recursos Humanos, salario=32500.0]]], Empleado [nombreApellidos=Sara Navarro, empresa=EcoGestión, puestos=[Puesto [idPuesto=p108, nombrePuesto=Contable, departamento=Finanzas, salario=31000.0]]], Empleado [nombreApellidos=Miguel Ruiz, empresa=Empresa, puestos=[Puesto [idPuesto=p109, nombrePuesto=Jefe de Proyecto, departamento=Informática, salario=46000.0]]], Empleado [nombreApellidos=Carmen Molina, empresa=TecnoSur, puestos=[Puesto [idPuesto=p100, nombrePuesto=Desarrollador Java, departamento=, salario=32500.0]]], Empleado [nombreApellidos=Álvaro Castro, empresa=Innovatech, puestos=[Puesto [idPuesto=p101, nombrePuesto=Analista de Marketing, departamento=Marketing, salario=36000.0]]], Empleado [nombreApellidos=Paula Ortega, empresa=Andalucía Digital, puestos=[Puesto [idPuesto=p102, nombrePuesto=Técnico de Sistemas, departamento=Informática, salario=29500.0]]], Empleado [nombreApellidos=Hugo Jiménez, empresa=Soluciones Atlas, puestos=[Puesto [idPuesto=p103, nombrePuesto=Responsable de Ventas, departamento=Comercial, salario=43000.0]]], Empleado [nombreApellidos=Irene Delgado, empresa=Nexo Consulting, puestos=[Puesto [idPuesto=p104, nombrePuesto=Diseñador UX, departamento=Diseño, salario=33000.0]]], Empleado [nombreApellidos=Claudia Vega, empresa=Grupo Alborán, puestos=[Puesto [idPuesto=p106, nombrePuesto=Administrativo, departamento=Administración, salario=24000.0]]], Empleado [nombreApellidos=Sergio Ramos, empresa=DataNova, puestos=[Puesto [idPuesto=p107, nombrePuesto=Especialista en RRHH, departamento=Recursos Humanos, salario=32500.0]]], Empleado [nombreApellidos=Nuria Herrera, empresa=EcoGestión, puestos=[Puesto [idPuesto=p108, nombrePuesto=Contable, departamento=Finanzas, salario=31000.0]]], Empleado [nombreApellidos=Adrián Gil, empresa=Empresa, puestos=[Puesto [idPuesto=p109, nombrePuesto=Jefe de Proyecto, departamento=Informática, salario=46000.0]]], Empleado [nombreApellidos=Lucía García, empresa=TecnoSur, puestos=[Puesto [idPuesto=p100, nombrePuesto=Desarrollador Java, departamento=Informática, salario=32500.0]]], Empleado [nombreApellidos=Carlos Rodríguez, empresa=Innovatech, puestos=[Puesto [idPuesto=p101, nombrePuesto=Analista de Marketing, departamento=Marketing, salario=36000.0]]], Empleado [nombreApellidos=María López, empresa=Andalucía Digital, puestos=[Puesto [idPuesto=, nombrePuesto=Técnico de Sistemas, departamento=, salario=29500.0]]], Empleado [nombreApellidos=Javier Martín, empresa=Soluciones Atlas, puestos=[Puesto [idPuesto=p103, nombrePuesto=Responsable de Ventas, departamento=Comercial, salario=43000.0]]], Empleado [nombreApellidos=Pablo Sánchez, empresa=Horizonte Software, puestos=[Puesto [idPuesto=p105, nombrePuesto=Analista de Datos, departamento=Analítica, salario=37500.0]]], Empleado [nombreApellidos=Elena Romero, empresa=Grupo Alborán, puestos=[Puesto [idPuesto=p106, nombrePuesto=Administrativo, departamento=Administración, salario=24000.0]]], Empleado [nombreApellidos=David Torres, empresa=DataNova, puestos=[Puesto [idPuesto=p107, nombrePuesto=Especialista en RRHH, departamento=Recursos Humanos, salario=32500.0]]], Empleado [nombreApellidos=Sara Navarro, empresa=EcoGestión, puestos=[Puesto [idPuesto=p108, nombrePuesto=Contable, departamento=Finanzas, salario=31000.0]]], Empleado [nombreApellidos=Miguel Ruiz, empresa=Empresa, puestos=[Puesto [idPuesto=p109, nombrePuesto=Jefe de Proyecto, departamento=Informática, salario=46000.0]]], Empleado [nombreApellidos=Carmen Molina, empresa=TecnoSur, puestos=[Puesto [idPuesto=p100, nombrePuesto=Desarrollador Java, departamento=Informática, salario=32500.0]]], Empleado [nombreApellidos=Álvaro Castro, empresa=Innovatech, puestos=[Puesto [idPuesto=p101, nombrePuesto=Analista de Marketing, departamento=Marketing, salario=36000.0]]], Empleado [nombreApellidos=Paula Ortega, empresa=Andalucía Digital, puestos=[Puesto [idPuesto=p102, nombrePuesto=Técnico de Sistemas, departamento=Informática, salario=29500.0]]], Empleado [nombreApellidos=Irene Delgado, empresa=Nexo Consulting, puestos=[Puesto [idPuesto=p104, nombrePuesto=Diseñador UX, departamento=Diseño, salario=33000.0]]], Empleado [nombreApellidos=Daniel Moreno, empresa=Horizonte Software, puestos=[Puesto [idPuesto=p105, nombrePuesto=Analista de Datos, departamento=Analítica, salario=37500.0]]], Empleado [nombreApellidos=Claudia Vega, empresa=Grupo Alborán, puestos=[Puesto [idPuesto=p106, nombrePuesto=Administrativo, departamento=, salario=24000.0]]], Empleado [nombreApellidos=Sergio Ramos, empresa=DataNova, puestos=[Puesto [idPuesto=p107, nombrePuesto=Especialista en RRHH, departamento=Recursos Humanos, salario=32500.0]]], Empleado [nombreApellidos=Nuria Herrera, empresa=EcoGestión, puestos=[Puesto [idPuesto=p108, nombrePuesto=Contable, departamento=Finanzas, salario=31000.0]]], Empleado [nombreApellidos=Adrián Gil, empresa=Empresa, puestos=[Puesto [idPuesto=p109, nombrePuesto=Jefe de Proyecto, departamento=Informática, salario=46000.0]]], Empleado [nombreApellidos=Lucía García, empresa=TecnoSur, puestos=[Puesto [idPuesto=p100, nombrePuesto=Desarrollador Java, departamento=Informática, salario=32500.0]]], Empleado [nombreApellidos=Carlos Rodríguez, empresa=Innovatech, puestos=[Puesto [idPuesto=p101, nombrePuesto=Analista de Marketing, departamento=Marketing, salario=36000.0]]], Empleado [nombreApellidos=Javier Martín, empresa=Soluciones Atlas, puestos=[Puesto [idPuesto=p103, nombrePuesto=Responsable de Ventas, departamento=Comercial, salario=43000.0]]], Empleado [nombreApellidos=Ana Fernández, empresa=Nexo Consulting, puestos=[Puesto [idPuesto=p104, nombrePuesto=Diseñador UX, departamento=Diseño, salario=33000.0]]], Empleado [nombreApellidos=Pablo Sánchez, empresa=Horizonte Software, puestos=[Puesto [idPuesto=p105, nombrePuesto=Analista de Datos, departamento=Analítica, salario=37500.0]]], Empleado [nombreApellidos=Elena Romero, empresa=Grupo Alborán, puestos=[Puesto [idPuesto=p106, nombrePuesto=Administrativo, departamento=Administración, salario=24000.0]]], Empleado [nombreApellidos=David Torres, empresa=DataNova, puestos=[Puesto [idPuesto=, nombrePuesto=Especialista en RRHH, departamento=Recursos Humanos, salario=32500.0]]], Empleado [nombreApellidos=Sara Navarro, empresa=EcoGestión, puestos=[Puesto [idPuesto=p108, nombrePuesto=Contable, departamento=Finanzas, salario=31000.0]]], Empleado [nombreApellidos=Miguel Ruiz, empresa=Empresa, puestos=[Puesto [idPuesto=p109, nombrePuesto=Jefe de Proyecto, departamento=Informática, salario=46000.0]]], Empleado [nombreApellidos=Carmen Molina, empresa=TecnoSur, puestos=[Puesto [idPuesto=p100, nombrePuesto=Desarrollador Java, departamento=Informática, salario=32500.0]]], Empleado [nombreApellidos=Paula Ortega, empresa=Andalucía Digital, puestos=[Puesto [idPuesto=p102, nombrePuesto=Técnico de Sistemas, departamento=Informática, salario=29500.0]]], Empleado [nombreApellidos=Hugo Jiménez, empresa=Soluciones Atlas, puestos=[Puesto [idPuesto=p103, nombrePuesto=Responsable de Ventas, departamento=Comercial, salario=43000.0]]], Empleado [nombreApellidos=Irene Delgado, empresa=Nexo Consulting, puestos=[Puesto [idPuesto=, nombrePuesto=Diseñador UX, departamento=Diseño, salario=33000.0]]], Empleado [nombreApellidos=Daniel Moreno, empresa=Horizonte Software, puestos=[Puesto [idPuesto=p105, nombrePuesto=Analista de Datos, departamento=Analítica, salario=37500.0]]], Empleado [nombreApellidos=Claudia Vega, empresa=Grupo Alborán, puestos=[Puesto [idPuesto=p106, nombrePuesto=Administrativo, departamento=Administración, salario=24000.0]]], Empleado [nombreApellidos=Sergio Ramos, empresa=DataNova, puestos=[Puesto [idPuesto=p107, nombrePuesto=Especialista en RRHH, departamento=Recursos Humanos, salario=32500.0]]], Empleado [nombreApellidos=Nuria Herrera, empresa=EcoGestión, puestos=[Puesto [idPuesto=p108, nombrePuesto=Contable, departamento=Finanzas, salario=31000.0]]], Empleado [nombreApellidos=Adrián Gil, empresa=Empresa, puestos=[Puesto [idPuesto=p109, nombrePuesto=Jefe de Proyecto, departamento=Informática, salario=46000.0]]], Empleado [nombreApellidos=Carlos Rodríguez, empresa=Innovatech, puestos=[Puesto [idPuesto=p101, nombrePuesto=Analista de Marketing, departamento=Marketing, salario=36000.0]]], Empleado [nombreApellidos=María López, empresa=Andalucía Digital, puestos=[Puesto [idPuesto=p102, nombrePuesto=Técnico de Sistemas, departamento=, salario=29500.0]]], Empleado [nombreApellidos=Javier Martín, empresa=Soluciones Atlas, puestos=[Puesto [idPuesto=p103, nombrePuesto=Responsable de Ventas, departamento=Comercial, salario=43000.0]]], Empleado [nombreApellidos=Ana Fernández, empresa=Nexo Consulting, puestos=[Puesto [idPuesto=p104, nombrePuesto=Diseñador UX, departamento=Diseño, salario=33000.0]]], Empleado [nombreApellidos=Pablo Sánchez, empresa=Horizonte Software, puestos=[Puesto [idPuesto=p105, nombrePuesto=Analista de Datos, departamento=Analítica, salario=37500.0]]], Empleado [nombreApellidos=Elena Romero, empresa=Grupo Alborán, puestos=[Puesto [idPuesto=p106, nombrePuesto=Administrativo, departamento=Administración, salario=24000.0]]], Empleado [nombreApellidos=David Torres, empresa=DataNova, puestos=[Puesto [idPuesto=p107, nombrePuesto=Especialista en RRHH, departamento=Recursos Humanos, salario=32500.0]]], Empleado [nombreApellidos=Sara Navarro, empresa=EcoGestión, puestos=[Puesto [idPuesto=p108, nombrePuesto=Contable, departamento=Finanzas, salario=31000.0]]], Empleado [nombreApellidos=Carmen Molina, empresa=TecnoSur, puestos=[Puesto [idPuesto=p100, nombrePuesto=Desarrollador Java, departamento=Informática, salario=32500.0]]], Empleado [nombreApellidos=Álvaro Castro, empresa=Innovatech, puestos=[Puesto [idPuesto=p101, nombrePuesto=Analista de Marketing, departamento=Marketing, salario=36000.0]]], Empleado [nombreApellidos=Paula Ortega, empresa=Andalucía Digital, puestos=[Puesto [idPuesto=p102, nombrePuesto=Técnico de Sistemas, departamento=Informática, salario=29500.0]]], Empleado [nombreApellidos=Hugo Jiménez, empresa=Soluciones Atlas, puestos=[Puesto [idPuesto=, nombrePuesto=Responsable de Ventas, departamento=, salario=43000.0]]], Empleado [nombreApellidos=Irene Delgado, empresa=Nexo Consulting, puestos=[Puesto [idPuesto=p104, nombrePuesto=Diseñador UX, departamento=Diseño, salario=33000.0]]], Empleado [nombreApellidos=Claudia Vega, empresa=Grupo Alborán, puestos=[Puesto [idPuesto=p106, nombrePuesto=Administrativo, departamento=Administración, salario=24000.0]]], Empleado [nombreApellidos=Sergio Ramos, empresa=DataNova, puestos=[Puesto [idPuesto=p107, nombrePuesto=Especialista en RRHH, departamento=Recursos Humanos, salario=32500.0]]], Empleado [nombreApellidos=Adrián Gil, empresa=Empresa, puestos=[Puesto [idPuesto=p109, nombrePuesto=Jefe de Proyecto, departamento=Informática, salario=46000.0]]]]

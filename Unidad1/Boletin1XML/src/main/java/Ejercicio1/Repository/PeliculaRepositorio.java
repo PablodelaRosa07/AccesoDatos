@@ -12,7 +12,7 @@ import Ejercicio1.Service.XMLDomPeliculas;
 public class PeliculaRepositorio {
 
     private List<Pelicula> listaPeliculas;
-    private final XMLDomPeliculas xmlDomPeliculas;
+    private final XMLDomPeliculas xmlDomPeliculas;				
 
     public PeliculaRepositorio() {
         this.listaPeliculas = new ArrayList<Pelicula>();
@@ -22,13 +22,7 @@ public class PeliculaRepositorio {
     public PeliculaRepositorio(String nombreFichero) {
         this.xmlDomPeliculas = new XMLDomPeliculas();
         this.listaPeliculas = new ArrayList<Pelicula>();
-        cargarDesdeFichero(nombreFichero);
-    }
-
-    public void cargarDesdeFichero(String nombreFichero) {
-        if (nombreFichero != null) {
-            this.listaPeliculas = xmlDomPeliculas.cargarPeliculas(nombreFichero);
-        }
+        cargarDesdeFichero(nombreFichero);  // Si lo hago aquí, cuando creo un Objeto "PeliculaRepositorio", carga el fichero directamente (hace la función) y no tengo que llamarlo después.
     }
 
     public List<Pelicula> getListaPeliculas() {
@@ -39,9 +33,17 @@ public class PeliculaRepositorio {
         this.listaPeliculas = listaPeliculas;
     }
 
-    public void agregarPelicula(Pelicula pelicula) {
+    
+    
+    public void agregarPelicula(Pelicula pelicula) {   // Funcion que no siempre se repite, por eso está en el repo y no en el Utiles.
         if (pelicula != null) {
             this.listaPeliculas.add(pelicula);
+        }
+    }
+    
+    public void cargarDesdeFichero(String nombreFichero) {   // Se inicia al mismo tiempo que el objeto "PeliculaRepositorio"
+        if (nombreFichero != null) {
+            this.listaPeliculas = xmlDomPeliculas.cargarPeliculas(nombreFichero);    // Actualiza this.listaPeliculas asignándole la lista de objetos Pelicula que devuelve cargarPeliculas(...)
         }
     }
 }
