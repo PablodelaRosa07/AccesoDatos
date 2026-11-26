@@ -33,7 +33,7 @@ public class XMLDomPeliculas {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();  // Preguntar a Soraya qué hace exactamente
             DocumentBuilder builder = factory.newDocumentBuilder();					// ===
             doc = builder.parse(new File(rutaResources + nombreFichero));			// ===
-            doc.getDocumentElement().normalize();									// ===
+            doc.getDocumentElement().normalize();									// Unifica el texto para que sea más limpio y legible el dom
         } catch (Exception e) {
             e.printStackTrace();
         }

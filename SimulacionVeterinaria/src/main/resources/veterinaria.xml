@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinica>
+    <mascota id="1" especie="PERRO">
+        <nombre>Toby</nombre>
+        <propietario>
+            <nombre>Ana López</nombre>
+        </propietario>
+    </mascota>
+    <mascota id="2" especie="GATO">
+        <nombre>Misi</nombre>
+        <propietario>
+            <nombre>Luis Pérez</nombre>
+        </propietario>
+    </mascota>
+    <mascota id="3" especie="AVE">
+        <nombre>Piolín</nombre>
+        <propietario>
+            <nombre>Marta Ruiz</nombre>
+        </propietario>
+    </mascota>
+    <mascota id="4" especie="GATO">
+        <nombre>Garfield</nombre>
+        <propietario>
+            <nombre>Ana López</nombre>
+        </propietario>
+    </mascota>
+    <mascota id="5" especie="EXOTICO">
+        <nombre>Rex</nombre>
+        <propietario>
+            <nombre>Javier Gómez</nombre>
+        </propietario>
+    </mascota>
+    <mascota id="6" especie="PERRO">
+        <nombre>Luna</nombre>
+        <propietario>
+            <nombre>Carmen Díaz</nombre>
+        </propietario>
+    </mascota>
+    <mascota id="7" especie="GATO">
+        <nombre>Nala</nombre>
+        <propietario>
+            <nombre>Pedro Sánchez</nombre>
+        </propietario>
+    </mascota>
+    <mascota id="8" especie="PERRO">
+        <nombre>Rocky</nombre>
+        <propietario>
+            <nombre>Lucía Moreno</nombre>
+        </propietario>
+    </mascota>
+    <mascota id="9" especie="PERRO">
+        <propietario>
+            <nombre>Raúl Vega</nombre>
+        </propietario>
+    </mascota>
+    <mascota id="10" especie="AVE">
+        <nombre>Kiwi</nombre>
+        <propietario>
+            <nombre></nombre>
+        </propietario>
+    </mascota>
+</clinica>
