@@ -65,8 +65,8 @@ public class MascotaDAO {
                 Node nodo = nodos.item(i);   // 							
                 if (nodo.getNodeType() == Node.ELEMENT_NODE) {				
                     Element elem = (Element) nodo;							
-                    String id = obtenerTexto(elem, "id");
-                    String especie = obtenerTexto(elem, "especie");		
+                    String id = obtenerTextoAtributo(elem, "id");
+                    String especie = obtenerTextoAtributo(elem, "especie");		
                     String nombre = obtenerTexto(elem, "nombre");
                     List<String> nombrePropietario = obtenerNombrePropietario(elem);	
                     
@@ -108,16 +108,30 @@ public class MascotaDAO {
         return texto;															
     }
     
+    private String obtenerTextoAtributo(Element padre, String etiqueta) {		 // Obtiene el texto de la etiqueta		
+        String texto = padre.getAttribute(etiqueta);
+        
+        if (texto != null && texto != "") {	
+            texto = padre.getAttribute(etiqueta).trim();						
+        }
+        return texto;															
+    }
     
-    private List<String> obtenerNombrePropietario(Element padreMascota) {			
+    
+    private List<String> obtenerNombrePropietario(Element padreMascota) {
         List<String> listaPropietario = new ArrayList<String>();
-        NodeList nodoPropietario = padreMascota.getElementsByTagName("propietario");
-        for (int i = 0; i < nodoPropietario.getLength(); i++) {					
-            Node nodoNombrePropietario = nodoPropietario.item(i);
-            if (nodoNombrePropietario != null && nodoNombrePropietario.getNodeType() == Node.ELEMENT_NODE) {   
-                String nombrePropietario = nodoNombrePropietario.getTextContent().trim();
-                if (!nombrePropietario.isEmpty()) {                                   
-                	listaPropietario.add(nombrePropietario);
+        NodeList nodosPropietario = padreMascota.getElementsByTagName("propietario");
+
+        for (int i = 0; i < nodosPropietario.getLength(); i++) {
+            Node nodoProp = nodosPropietario.item(i);
+            if (nodoProp != null && nodoProp.getNodeType() == Node.ELEMENT_NODE) {
+                Element elemProp = (Element) nodoProp;
+                NodeList nodosNombre = elemProp.getElementsByTagName("nombre");
+                if (nodosNombre.getLength() > 0 && nodosNombre.item(0) != null) {
+                    String nombreProp = nodosNombre.item(0).getTextContent().trim();
+                    if (!nombreProp.isEmpty()) {
+                        listaPropietario.add(nombreProp);
+                    }
                 }
             }
         }
